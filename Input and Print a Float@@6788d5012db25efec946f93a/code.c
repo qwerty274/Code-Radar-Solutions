@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main() {
-    printf("%s", welcome());
+    scanf("%f")
+    printf("%f");
     return 0;
 }
