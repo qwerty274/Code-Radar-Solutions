@@ -1,7 +1,16 @@
 #include <stdio.h>
+
 int main() {
-    float a;
-    scanf("%f".&a);
-    printf("You entered : %2f",a);
+    float num;
+
+    // Asking for input using printf
+    printf("Enter a float number: ");
+    
+    // Reading the input using scanf
+    scanf("%f", &num);
+
+    // Printing the entered float number up to two decimal places
+    printf("You entered: %.2f\n", num);
+
     return 0;
 }
