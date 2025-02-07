@@ -4,7 +4,6 @@ int main() {
     float num;
 
     // Asking for input using printf
-    printf("Enter a float number: ");
     
     // Reading the input using scanf
     scanf("%f", &num);
