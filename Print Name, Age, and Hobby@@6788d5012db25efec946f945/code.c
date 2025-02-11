@@ -1,6 +1,5 @@
 #include <stdio.h>
-int main() 
-{
+int main() {
     char Name;
     int num;
     char hobby;
@@ -10,3 +9,5 @@ int main()
     printf("Hobby: %c",hobby);
     return 0;
 }
+
+
