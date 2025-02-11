@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int a,b,mul;
-
-    scanf("%d %d",a,b);
+    float a,b,mul;
+    scanf("%f %f",a,b);
     mul=a*b;
-    printf("%d",mul);
+    printf("%f",mul);
     return 0;
 }
