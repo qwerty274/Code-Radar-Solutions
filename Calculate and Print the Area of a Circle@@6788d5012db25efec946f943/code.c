@@ -1,9 +1,9 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int rad;
+    float rad;
     float area;
-    scanf("%d",&rad);
+    scanf("%f",&rad);
     area= 22.0/7 * (rad * rad);
     printf("Area: %.2f\n",area);
     return 0;
