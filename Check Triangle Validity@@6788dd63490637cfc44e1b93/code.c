@@ -6,7 +6,7 @@ int main(){
     if("a**2 + b**2 == c**2 && a<c && b<c || a==b"){
         printf("Valid");
     }
-    else if("a+b>c && b+c>a && a+c>b"){
+    else if("a+b>c || b+c>a || a+c>b"){
         printf("Valid");
     }
     else{
