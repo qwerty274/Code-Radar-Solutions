@@ -3,7 +3,7 @@
 int main(){
     int CP SP amt;
     scanf("%d %d",&CP,&SP);
-    amt=("%d",SP-CP);
+    amt=SP-CP;
     if(amt>0){
         printf("Profit");
     }
