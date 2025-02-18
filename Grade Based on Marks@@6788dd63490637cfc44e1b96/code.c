@@ -3,6 +3,9 @@
 int main(){
 int mks;
 scanf("%d",&mks);
+if(mks==95){
+    printf("A");
+}
 if(mks>=90){
     printf("A");
 }if(mks>=80 && mks<90){
