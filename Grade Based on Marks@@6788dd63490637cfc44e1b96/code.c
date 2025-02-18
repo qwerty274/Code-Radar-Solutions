@@ -6,9 +6,10 @@ scanf("%d",&mks);
 if(mks==95){
     printf("A");
 }
-if(mks>=90){
+else if(mks>=90){
     printf("A");
-}if(mks>=80 && mks<90){
+}
+else if(mks>=80 && mks<90){
     printf("B");
 }
 else if(mks>=70 && mks<80){
