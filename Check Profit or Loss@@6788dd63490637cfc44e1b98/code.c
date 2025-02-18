@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int CP,SP, amt;
+    int CP,SP,amt;
     scanf("%d %d",&CP,&SP);
     amt= SP-CP;
     if(amt>0){
