@@ -5,6 +5,6 @@ int main(){
     double area;
     scanf("%lf",&rad);
     area= 3.14 * (rad * rad);
-    printf("Area: %.2lf\n",area);
+    printf("Area: %.5lf\n",area);
     return 0;
 }
