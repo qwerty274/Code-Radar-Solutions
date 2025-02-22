@@ -4,6 +4,6 @@ int main(){
 int num,n,nthbit;
 scanf("%d %d , num , n");
 nthbit = (1<<n)| num;
-printf("%d",nth bit);
+printf("%d %d",n , num);
 return 0;
 }
