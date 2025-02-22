@@ -8,7 +8,7 @@ int main(){
         printf("Digit\n");
     }
 
-    else if (word=="a" || word=="e" ||word=="i" || word=="o"|| word=="u" || word =="A"|| word=="E"||word=="I"||word=="O" || word=="U"){
+    else if (word=='a' || word=='e' ||word== 'i' || word=='o'|| word=='u'|| word =='A'|| word=='E'||word=='I'||word=='O' || word=='U'){
         printf("Vowel\n");
     }
     else {
