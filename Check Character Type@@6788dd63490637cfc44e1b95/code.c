@@ -7,14 +7,12 @@ int main(){
         printf("Digit\n")
     }
 
-    if (word=="a" || word=="e" ||word=="i" || word=="o"|| word=="u" || word =="A"|| word=="E"||word=="I"||word=="O" || word=="U"){
+    else if (word=="a" || word=="e" ||word=="i" || word=="o"|| word=="u" || word =="A"|| word=="E"||word=="I"||word=="O" || word=="U"){
         printf("Vowel\n");
-    }else{
-        printf("Consonant\n");
     }
-else{
-    printf("Special character\n");
-}
+    else {
+        printf("special character");
+    }
 
     return 0;
 }
