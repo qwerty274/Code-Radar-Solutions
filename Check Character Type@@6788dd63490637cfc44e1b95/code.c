@@ -3,7 +3,7 @@
 int main(){
     char word;
     scanf("%c",&word);
-    if(word>="0" && word<="9"){
+    if(isdigit(word)){
         printf("Digit\n")
     }
 
@@ -11,7 +11,7 @@ int main(){
         printf("Vowel\n");
     }
     else {
-        printf("special character");
+        printf("special character\n");
     }
 
     return 0;
