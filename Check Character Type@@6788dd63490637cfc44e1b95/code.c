@@ -11,6 +11,9 @@ int main(){
     else if (word=='a' || word=='e' ||word== 'i' || word=='o'|| word=='u'|| word =='A'|| word=='E'||word=='I'||word=='O' || word=='U'){
         printf("Vowel\n");
     }
+    else if(isalpha(word)){
+        printf("Consonant");
+    }
     else {
         printf("special character\n");
     }
