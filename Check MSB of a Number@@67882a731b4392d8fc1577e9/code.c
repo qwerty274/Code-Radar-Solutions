@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main() {
     int num;
-    printf("Enter an integer: ");
+    
     scanf("%d", &num);
 
     int bits = sizeof(num) * 8;  // Get total number of bits (usually 32 for int)
