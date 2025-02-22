@@ -1,9 +1,9 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-int num,n,nth bit;
+int num,n,nthbit;
 scanf("%d %d , num , n");
-nth bit = (1<<n)| num;
+nthbit = (1<<n)| num;
 printf("%d",nth bit);
 return 0;
 }
