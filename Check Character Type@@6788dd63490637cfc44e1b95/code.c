@@ -12,7 +12,7 @@ int main(){
         printf("Vowel\n");
     }
     else if(isalpha(word)){
-        printf("Consonant");
+        printf("Consonant\n");
     }
     else {
         printf("special character\n");
