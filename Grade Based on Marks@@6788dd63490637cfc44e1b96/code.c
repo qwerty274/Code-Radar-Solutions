@@ -1,12 +1,9 @@
-// Your code here...
+ // Your code here...
 #include <stdio.h>
 int main(){
 int mks;
 scanf("%d",&mks);
-if(mks==95){
-    printf("A");
-}
-else if(mks>=90){
+if(mks>=90){
     printf("A");
 }
 else if(mks>=80 && mks<90){
