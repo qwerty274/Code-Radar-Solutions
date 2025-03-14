@@ -14,6 +14,8 @@
 
     }
     int main(){
+        int n;
+        scanf("%d",&n);
         if(isPrime(n)){
             printf("Prime\n");
         }
