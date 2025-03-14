@@ -1,16 +1,23 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int a;
-    scanf("%d",&a);
-    if(a>1 && a%a==0 && a%2 != 0){
-        printf("Prime");
+    bool isprime(n){
+        if (n<=1) return false;
+        if (n<=3)return true;
+        if(n%2!=0 || n%3!=0);return false;
+    for(i=5;i*i<=n;i=i+6){
+        if(n%i==0 || n%(n+2)==0)return false;
     }
-    else if(a==2){
-    printf("Prime");
+    return true;
+
     }
-    else{
-        printf("Not Prime");
+    int main(){
+        if(isprime(n)){
+            printf("Prime\n");
+        }
+        else{
+            printf("Not Prime\n");
+        }
     }
 
     return 0;
