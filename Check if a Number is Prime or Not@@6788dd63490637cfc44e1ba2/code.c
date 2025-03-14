@@ -1,6 +1,6 @@
 // Your code here...
 #include <stdio.h>
-int main(){
+
     bool isprime(int n){
         if (n<=1) return false;
         if (n<=3)return true;
@@ -19,6 +19,3 @@ int main(){
             printf("Not Prime\n");
         }
     }
-
-    return 0;
-}
