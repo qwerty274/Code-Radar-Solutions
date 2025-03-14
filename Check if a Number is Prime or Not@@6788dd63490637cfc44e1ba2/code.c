@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 
-    bool isprime(int n){
+    bool isPrime(int n){
         if (n<=1) return false;
         if (n<=3)return true;
         if(n%2!=0 || n%3!=0);return false;
@@ -12,7 +12,7 @@
 
     }
     int main(){
-        if(isprime(n)){
+        if(isPrime(n)){
             printf("Prime\n");
         }
         else{
