@@ -3,7 +3,7 @@
 int main() {
     int n, i, j;
 
- =
+ 
     scanf("%d", &n);
 
     // Print the upper half of the diamond
