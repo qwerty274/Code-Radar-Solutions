@@ -10,6 +10,7 @@ int main(){
         for(char j;j=i;j++){
             printf("%c",i);
         }
+        printf("\n");
     }
 
 
