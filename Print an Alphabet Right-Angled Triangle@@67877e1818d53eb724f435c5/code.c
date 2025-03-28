@@ -7,11 +7,11 @@ int main(){
     scanf("%d",&n);
     scanf("%c",&i);
     for(char i ;i<=n;i++){
-        for(char j;j<=i+1;j++){
-            printf("%c",j);
+        for(char j;j=i;j++){
+            printf("%c",i);
         }
     }
-    scanf("%c",&i);
+
 
     return 0;
 }
