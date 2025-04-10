@@ -6,8 +6,8 @@ int arr[n];
 for(int i=0;i<n;i++){
     scanf("%d",&arr[i]);
 }
-count_even=0;
-count_odd=0;
+int count_even=0;
+int count_odd=0;
 for(int i=0;i<n;i++){
     if(arr[i]%2==0){
         printf("%d",count_even);
