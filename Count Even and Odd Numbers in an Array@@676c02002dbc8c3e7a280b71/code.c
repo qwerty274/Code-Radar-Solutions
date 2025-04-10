@@ -16,7 +16,7 @@ for(int i=0;i<n;i++){
         count_even++;
     }
 }
-printf("%d",count_even);
+printf("%d ",count_even);
 for(int i=0;i<n;i++){
     if(arr[i]%2!=0){
         count_odd++;
