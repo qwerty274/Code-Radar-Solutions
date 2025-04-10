@@ -13,13 +13,15 @@ int count_even=0;
 int count_odd=0;
 for(int i=0;i<n;i++){
     if(arr[i]%2==0){
-        printf("%d",count_even);
+        count_even++;
     }
 }
+printf("%d",count_even);
 for(int i=0;i<n;i++){
     if(arr[i]%2!=0){
-        printf("%d",count_odd);
+        count_odd++;
     }
 }
+printf("%d",count_odd);
 return 0;
 }
